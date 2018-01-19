@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+    <title>ABV Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="abv_calculator">
+        <h2>ABV Calculator</h2>
+        <hr />
+        <label for="og">
+            <span>Original Gravity:</span>
+            <input type="text" id="og">
+        </label>
+        <label for="fg">
+            <span>Final Gravity:</span>
+            <input type="text" id="fg">
+        </label>
+        <div class="equation">
+            <span>
+                <small>ABV = ((original gravity - final gravity) * 131.25)</small>
+            </span>
+        </div>
+        <button type="submit" class="calculate">
+            Calculate
+        </button>
+        <div class="alcohol">
+            <div class="abv">ABV</div>
+            <div>=</div>
+            <div class="alcohol_content"></div>
+            <div>
+            </div>
+<script src="js/app.js"></script>
+
+</body>
+</html>
